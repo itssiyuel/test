@@ -1,1 +1,5 @@
 steps:
+- name: 'bash'
+  args: ['echo', 'I am running in a custom workers pool!!']
+options:
+  workerPool: ${_WORKER_POOL_OPTION}
